@@ -1,0 +1,25 @@
+body {
+    /* 
+       Medidas absolutas 
+        cm, em, in, px, pt, pc
+
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+        16px geralemnte = 1em
+     */
+
+    shorthand -font 
+
+    /* Ordem --
+        font-style -> font-weight -> font-size -> font-family    
+    */
+}
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px, 5px, 15px rgb(136, 109, 93, 0.616);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
