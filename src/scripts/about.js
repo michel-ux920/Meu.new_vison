@@ -17,21 +17,3 @@ if (hora >= 0 && hora < 12) {
     document.body.style.background = "#515154"
 }
 }
-
-
-function App() {
-    const [message, setMessage] = useState('Olá, !');
-
-    return (
-        <div>
-            <h1>{message}</h1>
-            <button 
-                onClick={() => {
-                setMessage('Olá, Mundo!')
-                }}
-            > 
-                Mudar Mensagem
-            </button>
-        </div>
-    );
-}
