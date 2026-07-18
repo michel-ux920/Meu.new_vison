@@ -1,0 +1,37 @@
+     // javaScript contantes simples
+
+function carregar() {
+var msg = document.getElementById("msg")
+var imagem = document.getElementById("imagem")
+var data = new Date()
+var hora = data.getHours()
+msg.innerHTML = `Agora são ${hora} horas.`
+if (hora >= 0 && hora < 12) {
+    img.src =
+    document.body.style.background = "#e2cd9f"
+} else if (hora >= 12 && hora < 18) {
+    img.src = 
+    document.body.style.background = "#b9846f"
+} else {
+    img.src = 
+    document.body.style.background = "#515154"
+}
+}
+
+
+function App() {
+    const [message, setMessage] = useState('Olá, !');
+
+    return (
+        <div>
+            <h1>{message}</h1>
+            <button 
+                onClick={() => {
+                setMessage('Olá, Mundo!')
+                }}
+            > 
+                Mudar Mensagem
+            </button>
+        </div>
+    );
+}
